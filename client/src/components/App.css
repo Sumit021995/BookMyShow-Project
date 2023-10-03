@@ -1,0 +1,41 @@
+.main_block {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0.8rem;
+  }
+  .movies {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0.8rem;
+  }
+  .slot {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0.8rem;
+  }
+  .seats {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0.8rem;
+  }
+  .seat_col {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+  }
+  .lastbooking{
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+      border-radius: 0.8rem;
+      height: auto;
+  }
+  .lastBook{
+      font-weight: 500;
+  }
+  
+  

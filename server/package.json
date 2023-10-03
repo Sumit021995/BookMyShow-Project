@@ -1,0 +1,26 @@
+{
+  "name": "node-server-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
+    "run": "node ./index.js",
+    "client": "cd.. && cd client && npm start",
+    "dev": "concurrently \"node index.js\" \"npm run client\"",
+    "start": "nodemon ./index.js",
+    "download": "concurrently \"npm install\" \"npm run clienti\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "concurrently": "^7.5.0",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "mongodb": "6.1",
+    "mongoose": "^5.10.15",
+    "node-serialize": "0.0.4",
+    "nodemon": "^3.0.1"
+  }
+}

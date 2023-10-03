@@ -37,6 +37,13 @@ Select No. of tickets of required rows.
 Now click book now. Your Movie will be booked.
 To know the last booking done see last booking section. If no movies are booked It will show no booking found. If Booked it will show last booking details.
 
+To See All Bookings in MongoDB Compass
+
+ Install MongoDB compass.
+Open compass and connect with database  uri- mongodb://localhost:27017
+open collection book-bookmovietickets. As we book a movie in browser with client link-  "http://localhost:3000/" , 
+We can see all in mongoDB compass .
+
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 

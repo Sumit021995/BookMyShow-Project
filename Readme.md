@@ -1,4 +1,4 @@
-BookMyShow
+BookMyShow - Project
 
 This is a full stack project on BookMyShow.
 
